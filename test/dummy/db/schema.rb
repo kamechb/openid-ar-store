@@ -9,23 +9,23 @@
 # from scratch. The latter is a flawed and unsustainable approach (the more migrations
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
-# It's strongly recommended to check this file into your version control system.
+# It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131127050158) do
+ActiveRecord::Schema.define(version: 20131127070913) do
 
-  create_table "open_id_associations", :force => true do |t|
-    t.string  "server_url", :null => false
-    t.string  "handle",     :null => false
-    t.binary  "secret",     :null => false
-    t.integer "issued",     :null => false
-    t.integer "lifetime",   :null => false
-    t.string  "assoc_type", :null => false
+  create_table "open_id_associations", force: true do |t|
+    t.string  "server_url", null: false
+    t.string  "handle",     null: false
+    t.binary  "secret",     null: false
+    t.integer "issued",     null: false
+    t.integer "lifetime",   null: false
+    t.string  "assoc_type", null: false
   end
 
-  create_table "open_id_nonces", :force => true do |t|
-    t.string  "server_url", :null => false
-    t.integer "timestamp",  :null => false
-    t.string  "salt",       :null => false
+  create_table "open_id_nonces", force: true do |t|
+    t.string  "server_url", null: false
+    t.integer "timestamp",  null: false
+    t.string  "salt",       null: false
   end
 
 end
