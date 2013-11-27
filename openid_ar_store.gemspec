@@ -7,11 +7,11 @@ require "openid_ar_store/version"
 Gem::Specification.new do |s|
   s.name        = "openid_ar_store"
   s.version     = OpenidArStore::VERSION
-  s.authors     = ["Kamechb"]
+  s.authors     = ["kamechb"]
   s.email       = ["kamechb@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of OpenidArStore."
-  s.description = "TODO: Description of OpenidArStore."
+  s.homepage    = ""
+  s.summary     = "OpenID ActiveRecord Store."
+  s.description = "OpenID ActiveRecord Store."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
