@@ -1,4 +1,6 @@
 require "openid/store/interface"
+require "openid_ar_store/association"
+require "openid_ar_store/nonce"
 
 module OpenIDArStore
   class ActiveRecordStore < OpenID::Store::Interface

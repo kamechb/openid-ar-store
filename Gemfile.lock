@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    openid_ar_store (0.0.1)
+    openid_ar_store (0.0.3)
       activerecord
-      rails (~> 3.2.15)
+      rails
       ruby-openid (~> 2.3.0)
 
 GEM
